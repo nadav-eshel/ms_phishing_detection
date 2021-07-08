@@ -1,0 +1,101 @@
+FEATURE --- {YES, NO}
+
+1. Having IP address { -1,1 } 
+2. URL length: normal/long/crazy-long  { 1,0,-1 }
+3. Shortening service { -1,1 }
+4. Having @ symbol   { -1,1 }
+5. Double slash redirecting { -1,1 }
+6. Prefix Suffix  { -1,1 }
+7. Having Sub Domain: one-dot/two-dots/else { 1,0,-1 }
+
+8. SSL final State  { -1,1,0 }
+9. Domain registration length: less-than-a-year-remaining/else { -1,1 }
+
+10. Favicon { 1,-1 }
+11. Port {-1,1 }
+12. HTTPS token { 1, -1 }
+
+13. Request_URL  { 1,-1 }
+
+14. URL of Anchor { -1,0,1 }
+
+15. Links in tags { 1,-1,0 }
+
+16. SFH  { -1,1,0 }
+17. Submi1. Having IP address { -1,1 } 
+
+2. URL length: normal/long/crazy-long  { 1,0,-1 }
+
+3. Shortenning service { -1,1 }
+
+4. Having @ symbol   { -1,1 }
+
+5. Double slash redirecting { -1,1 }
+
+6. Prefix Suffix  { -1,1 }
+
+7. Having Sub Domain one-dot/two-dots/else { 1,0,-1 }
+
+8. SSL final State  { -1,1,0 }
+
+9. Domain registeration length: less-than-a-year-remaining/else { -1,1 }
+
+10. Favicon { 1,-1 }
+
+11. Port {-1,1 }
+
+12. HTTPS token { 1, -1 }
+
+13. Request_URL  { 1,-1 }
+
+14. URL_of_Anchor { -1,0,1 }
+
+15. Links_in_tags { 1,-1,0 }
+
+16. SFH  { -1,1,0 }
+
+17. Submitting_to_email { 1,-1 }
+
+18. Abnormal_URL { -1,1 }
+
+19. Redirect: number-of-history-lines smaller than one/ smaller than four/ else  { -1, 0,1 }
+
+20. On mouseover exists { 1,-1 }
+
+21. Right click  { 1,-1 }
+
+22. Popup Window  { 1,-1 }
+
+23. Iframe { 1,-1 }
+
+24. Age of domain: older-than-6-months/else  { -1,1 }
+
+25. DNS record: less-than-a-year/else  { -1,1 }
+
+26. Web traffic rank  { -1,0,1 }
+
+27. Page rank { -1,1 }
+
+28. Google index { 1,-1 }
+
+29. Links pointing to page: none/less-than-two/else { 1,0,-1 }
+
+30. Known URL/IP ending  { -1,1 }tting_to_email { 1,-1 }
+
+18. Abnormal_URL { -1,1 }
+19. Redirect: number-of-history-lines smaller than one/ smaller than four/ else  { -1, 0,1 }
+20. On mouseover exists { 1,-1 }
+21. Right click  { 1,-1 }
+22. Popup Window  { 1,-1 }
+
+23. Iframe { 1,-1 }
+24. Age of domain: older-than-6-months/else  { -1,1 }
+25. DNS record: less-than-a-year/else  { -1,1 }
+26. Web traffic rank  { -1,0,1 }
+27. Page rank { -1,1 }
+28. Google index { 1,-1 }
+29. Links pointing to page: none/less-than-two/else { 1,0,-1 }
+30. Known URL/IP ending  { -1,1 }
+
+31. Label: phishing/benign  { -1,1 }
+
